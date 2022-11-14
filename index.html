@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="container-header">
+            <h1>Trivia</h1>
+            <div class="item-header">
+                <a href="" class="active"><p>Inicio</p></a>
+                <a href=""><p>Salir</p></a>
+            </div>
+        </div>
+    </header>
+    <div class="container" id="QuestionOne">
+        <div class="card">
+            <h2>Tittle 1</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, nulla, placeat aspernatur corporis officiis mollitia voluptatum eius eum rem eos eligendi illo. Placeat deleniti dolorum asperiores atque, saepe rem nesciunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, nulla, placeat aspernatur corporis officiis mollitia voluptatum eius eum rem eos eligendi illo. Placeat deleniti dolorum asperiores atque, saepe rem nesciunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, nulla, placeat aspernatur corporis officiis mollitia voluptatum eius eum rem eos eligendi illo. Placeat deleniti dolorum asperiores atque, saepe rem nesciunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, nulla, placeat aspernatur corporis officiis mollitia voluptatum eius eum rem eos eligendi illo. Placeat deleniti dolorum asperiores atque, saepe rem nesciunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, nulla, placeat aspernatur corporis officiis mollitia voluptatum eius eum rem eos eligendi illo. Placeat deleniti dolorum asperiores atque, saepe rem nesciunt?</p>
+            <div class="container-button">
+                <button onclick="answeredQuestion(1, true)">Alemania</button>
+                <button onclick="answeredQuestion(1, false)">Francia</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="QuestionTwo">
+        <div class="card">
+            <h2>Tittle 2</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, nulla, placeat aspernatur corporis officiis mollitia voluptatum eius eum rem eos eligendi illo. Placeat deleniti dolorum asperiores atque, saepe rem nesciunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, nulla, placeat aspernatur corporis officiis mollitia voluptatum eius eum rem eos eligendi illo. Placeat deleniti dolorum asperiores atque, saepe rem nesciunt?</p>
+            <div class="container-button">
+                <button onclick="answeredQuestion(2, true)">Alemania</button>
+                <button onclick="answeredQuestion(2, true)">Francia</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="QuestionThree">
+        <div class="card">
+            <h2>Tittle 3</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, nulla, placeat aspernatur corporis officiis mollitia voluptatum eius eum rem eos eligendi illo. Placeat deleniti dolorum asperiores atque, saepe rem nesciunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, nulla, placeat aspernatur corporis officiis mollitia voluptatum eius eum rem eos eligendi illo. Placeat deleniti dolorum asperiores atque, saepe rem nesciunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, nulla, placeat aspernatur corporis officiis mollitia voluptatum eius eum rem eos eligendi illo. Placeat deleniti dolorum asperiores atque, saepe rem nesciunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, nulla, placeat aspernatur corporis officiis mollitia voluptatum eius eum rem eos eligendi illo. Placeat deleniti dolorum asperiores atque, saepe rem nesciunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, nulla, placeat aspernatur corporis officiis mollitia voluptatum eius eum rem eos eligendi illo. Placeat deleniti dolorum asperiores atque, saepe rem nesciunt?</p>
+            <div class="container-button">
+                <button>Alemania</button>
+                <button>Francia</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="container">
+        <div class="card">
+            <h2>Tittle 4</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, nulla, placeat aspernatur corporis officiis mollitia voluptatum eius eum rem eos eligendi illo. Placeat deleniti dolorum asperiores atque, saepe rem nesciunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, nulla, placeat aspernatur corporis officiis mollitia voluptatum eius eum rem eos eligendi illo. Placeat deleniti dolorum asperiores atque, saepe rem nesciunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, nulla, placeat aspernatur corporis officiis mollitia voluptatum eius eum rem eos eligendi illo. Placeat deleniti dolorum asperiores atque, saepe rem nesciunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, nulla, placeat aspernatur corporis officiis mollitia voluptatum eius eum rem eos eligendi illo. Placeat deleniti dolorum asperiores atque, saepe rem nesciunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, nulla, placeat aspernatur corporis officiis mollitia voluptatum eius eum rem eos eligendi illo. Placeat deleniti dolorum asperiores atque, saepe rem nesciunt?</p>
+            <div class="container-button">
+                <button>Alemania</button>
+                <button>Francia</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="card">
+            <h2>Tittle 5</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, nulla, placeat aspernatur corporis officiis mollitia voluptatum eius eum rem eos eligendi illo. Placeat deleniti dolorum asperiores atque, saepe rem nesciunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, nulla, placeat aspernatur corporis officiis mollitia voluptatum eius eum rem eos eligendi illo. Placeat deleniti dolorum asperiores atque, saepe rem nesciunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, nulla, placeat aspernatur corporis officiis mollitia voluptatum eius eum rem eos eligendi illo. Placeat deleniti dolorum asperiores atque, saepe rem nesciunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, nulla, placeat aspernatur corporis officiis mollitia voluptatum eius eum rem eos eligendi illo. Placeat deleniti dolorum asperiores atque, saepe rem nesciunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, nulla, placeat aspernatur corporis officiis mollitia voluptatum eius eum rem eos eligendi illo. Placeat deleniti dolorum asperiores atque, saepe rem nesciunt?</p>
+            <div class="container-button">
+                <button>Alemania</button>
+                <button>Francia</button>
+            </div>
+        </div>
+    </div> -->
+    <script src="logic.js"></script>
+</body>
+</html>
