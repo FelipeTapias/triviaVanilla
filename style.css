@@ -59,6 +59,7 @@ body {
     align-items: center; 
 }
 
+/* Card style */
 .card {
     padding: 1rem;
     margin: 2rem;
@@ -66,6 +67,26 @@ body {
     border: 1px solid green;
     border-radius: 5px;
     background-color: white;
+}
+
+.card-result-good {
+    padding: .5rem;
+    margin: 1rem;
+    background-color: rgba(175, 248, 175, 0.705);
+    border: 1px solid rgb(10, 126, 10);
+    color: rgb(0, 117, 25);
+    border-radius: 5px;
+    width: 90%;
+}
+
+.card-result-wrong {
+    padding: .5rem;
+    margin: 1rem;
+    background-color: rgba(248, 175, 175, 0.705);
+    border: 1px solid rgb(126, 18, 10);
+    color: rgb(117, 4, 0);
+    border-radius: 5px;
+    width: 90%;
 }
 
 /* Buttons style */
@@ -89,4 +110,25 @@ button:hover{
     background-color: rgba(128, 128, 128, 0.719);
     color: white;
     border: 2px solid rgb(93, 252, 252);
+}
+
+/* Spinner style */
+#spinner {
+    margin-top: 10px;
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border-left-color: #09f;
+    animation: spin 1s ease infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }

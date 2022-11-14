@@ -8,7 +8,7 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
+    <nav>
         <div class="container-header">
             <h1>Trivia</h1>
             <div class="item-header">
@@ -16,7 +16,8 @@
                 <a href=""><p>Salir</p></a>
             </div>
         </div>
-    </header>
+    </nav>
+
     <div class="container" id="QuestionOne">
         <div class="card">
             <h2>Tittle 1</h2>
@@ -34,7 +35,7 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, nulla, placeat aspernatur corporis officiis mollitia voluptatum eius eum rem eos eligendi illo. Placeat deleniti dolorum asperiores atque, saepe rem nesciunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, nulla, placeat aspernatur corporis officiis mollitia voluptatum eius eum rem eos eligendi illo. Placeat deleniti dolorum asperiores atque, saepe rem nesciunt?</p>
             <div class="container-button">
                 <button onclick="answeredQuestion(2, true)">Alemania</button>
-                <button onclick="answeredQuestion(2, true)">Francia</button>
+                <button onclick="answeredQuestion(2, false)">Francia</button>
             </div>
         </div>
     </div>
@@ -71,6 +72,15 @@
             </div>
         </div>
     </div> -->
+    <div class="container">
+        <div id="spinner"></div>
+        <div class="card-result-good" id="result-good">
+            <h3>Respuesta correcta</h3>
+        </div>
+        <div class="card-result-wrong" id="result-wrong">
+            <h3>Respuesta incorrecta</h3>
+        </div>
+    </div>
     <script src="logic.js"></script>
 </body>
 </html>
